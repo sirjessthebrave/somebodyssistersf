@@ -14,7 +14,7 @@
                 font-family: 'Readex Pro', sans-serif;
                 background-color:#F8F5EC;
             }
-            .circle{
+            .background-circle{
                    width: 500px;
                    height: 500px;
                    border-radius: 500px; 
@@ -29,18 +29,19 @@
                transform: rotate(-15deg);
                margin:0;
                margin-left: -34px;
-                margin-bottom: 80px;
+                margin-bottom: 40px;
            }
            .tagline {
                 font-size: 30px;
                 padding-left: 95px;
-                padding-top: 77px;
+                padding-top: 20px;
                 display: inline-block;
            }
            p {
              text-align: center;
              font-size: 20px;
              padding: 0 30px;
+             margin: 10px;
            }
            label {
               display: block;
@@ -69,13 +70,47 @@
            button:hover {
              background-color: #F8F5EC;
            }
+           img {
+             width: 75px;
+             height: 75px;
+             display: block;
+             margin: 0 auto;
+           }
+           .circle {
+             height: 12px;
+             width: 12px;
+             border-radius: 12px;
+             border: solid 2px;
+             margin: 0 auto;
+             margin-top: 3px;
+            position: relative;
+           }
+           .top {
+             left: 13px;
+             height: 8px;
+             width: 8px;
+             border-radius: 8px;
+           }
+           .middle {
+            left: 18px;
+           }
+           .bottom {
+            left: 7px;
+             height: 10px;
+             width: 10px;
+             border-radius: 10px;
+           }
         </style>
     </head>
     <body>
         <div class="background-shape">
-            <div class="circle">
+            <div class="background-circle">
               <div class="tagline">Look!!</div>
               <h1>Somebody's Sister</h1>
+              <div class="circle top"></div>
+              <div class="circle middle"></div>
+              <div class="circle bottom"></div>
+              <img src="wine.svg" />
               <p>A dyke/lesbian/non-binary/trans/queer wine bar pop up in San Francisco</p>
                 <button><a href="http://eepurl.com/hPtdrv">Sign up for event updates</a></button>
             </div>
